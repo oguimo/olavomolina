@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+   <style>
+        /*  Define aparência geral do site */
+        body { background-color: white; color: #333; font-family: Arial, sans-serif; }
+        .menu { background-color: #024fa2; padding: 10px; text-align: center; }
+        .menu a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
+        .conteudo { border: 1px solid #070000; width: 100%; }
+        .conteudo td { padding: 15px; vertical-align: top; }
+        .titulo { background-color: #9ee0f3; font-size: 20px; font-weight: bold ; color: #000000;}
+        p { text-align: justify; }   
+    </style>
+</head>
+<body>
+   <table width="100%" border="0" cellspacing="0" cellpadding="10">
+       <!-- Tabela topo -->
+        <tr>
+            <td align="center" style="font-family: Verdana; font-size: 15px; font-weight: bold; color: #024fa2;">
+                <h1>OLAVO GUIMARÃES MOLINA</h1>
+            </td>
+        </tr>
+    </table>
+   <!-- Menu fixo em todas as páginas -->
+    <div class="menu">
+        <a href="index.html">Sobre Mim</a>
+        <a href="formacao.html">Formação</a>
+        <a href="portfolio.html">Portfólio</a>
+        <a href="contato.html">Contato</a>
+    </div>
+    <!-- Tabela central com formulário de contato -->
+    <table class="conteudo">
+        <tr class="titulo"><td colspan="2">FORMULÁRIO DE CONTATO</td></tr>
+        <tr>
+            <td colspan="2">
+                <!-- Formulário com campos soliticados -->
+                <form>
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" name="nome"><br><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email"><br><br>
+                    <label for="mensagem">Mensagem:</label><br>
+                    <textarea id="mensagem" name="mensagem" rows="5"></textarea><br><br>
+                    <input type="submit" value="Enviar">
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
